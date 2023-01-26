@@ -3,16 +3,17 @@ import ReactDOM from "react-dom/client";
 
 function Greeting() {
   return (
-    <React.Fragment>
-      <div>
-        <h3>My First Component!!</h3>
-      </div>
-    </React.Fragment>
+    <div>
+      <Person />
+      <Message />
+    </div>
   );
 }
-/*function Greeting() {
-  return React.createElement("h2", {}, "hello world");
-}*/
+
+const Person = () => <h2>giacomo de pol</h2>;
+const Message = () => {
+  return <p>this is my message</p>;
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
