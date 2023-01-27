@@ -23,9 +23,7 @@ const Book = () => {
     </article>
   );
 };
-const Image = () => (
-  <img src="https://images-na.ssl-images-amazon.com/images/I/91Szm8FpdfL._AC_UL900_SR900,600_.jpg"></img>
-);
+const Image = () => <img src="/images/immagine prova.jpg"></img>;
 const Title = () => <h2>Spare</h2>;
 const Author = () => {
   return <h4> Prince Harry The Duke of Sussex</h4>;
